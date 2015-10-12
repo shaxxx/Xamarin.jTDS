@@ -1,8 +1,16 @@
-﻿<Properties StartupItem="Xamarin.jTDS.csproj" GitUserInfo="UsingGIT">
+﻿<Properties StartupItem="AndroidMSSQL\AndroidMSSQL.csproj" GitUserInfo="UsingGIT">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Android.Nexus_5_API_23_x86" />
-  <MonoDevelop.Ide.Workbench />
+  <MonoDevelop.Ide.Workbench ActiveDocument="AndroidMSSQL\MainActivity.cs">
+    <Files>
+      <File FileName="AndroidMSSQL\MainActivity.cs" Line="73" Column="6" />
+      <File FileName="..\..\..\..\Documents\Projects\TestApp\TestApp\MainActivity.cs" Line="34" Column="54" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
+    <BreakpointStore>
+      <Breakpoint file="C:\Users\isako\Source\Repos\Xamarin.jTDS\Xamarin.jTDS\AndroidMSSQL\MainActivity.cs" line="80" column="1" />
+      <Breakpoint file="C:\Users\isako\Source\Repos\Xamarin.jTDS\Xamarin.jTDS\AndroidMSSQL\MainActivity.cs" line="85" column="1" />
+    </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <AuthorInfo Name="Ivica Sakota" Email="isakota@gmail.com" Copyright="Ivica Sakota" Company="" Trademark="" />
