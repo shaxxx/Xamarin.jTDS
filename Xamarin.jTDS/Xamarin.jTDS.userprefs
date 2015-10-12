@@ -1,1 +1,9 @@
-﻿<Properties StartupItem="Xamarin.jTDS.csproj" />
+﻿<Properties StartupItem="Xamarin.jTDS.csproj" GitUserInfo="UsingGIT">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Android.Nexus_5_API_23_x86" />
+  <MonoDevelop.Ide.Workbench />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <AuthorInfo Name="Ivica Sakota" Email="isakota@gmail.com" Copyright="Ivica Sakota" Company="" Trademark="" />
+</Properties>

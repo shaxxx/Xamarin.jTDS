@@ -6,4 +6,11 @@
   This sample removes the method: android.support.v4.content.CursorLoader.loadInBackground:
   <remove-node path="/api/package[@name='android.support.v4.content']/class[@name='CursorLoader']/method[@name='loadInBackground']" />
   -->
+	<attr path="/api/package[@name='net.sourceforge.jtds.jdbc']/class[@name='SharedSocket']" name="visibility">public</attr>
+	<attr path="/api/package[@name='net.sourceforge.jtds.jdbc']/class[@name='ParamInfo']" name="visibility">public</attr>
+	<attr path="/api/package[@name='net.sourceforge.jtds.jdbc']/class[@name='SQLDiagnostic']" name="visibility">public</attr>
+	<attr path="/api/package[@name='net.sourceforge.jtds.jdbc']/class[@name='JtdsConnection']/method[@name='getTypeMap']" name="managedName">getTypeMap</attr>
+	<attr path="/api/package[@name='net.sourceforge.jtds.jdbc']/class[@name='JtdsConnection']/method[@name='setTypeMap']" name="managedName">setTypeMap</attr>
+	<attr path="/api/package[@name='net.sourceforge.jtds.jdbcx.proxy']/class[@name='ConnectionProxy']/method[@name='getTypeMap']" name="managedName">getTypeMap</attr>
+	<attr path="/api/package[@name='net.sourceforge.jtds.jdbcx.proxy']/class[@name='ConnectionProxy']/method[@name='setTypeMap']" name="managedName">setTypeMap</attr>
 </metadata>

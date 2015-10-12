@@ -41,6 +41,11 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Additions\CallableStatementProxy.cs" />
+    <Compile Include="Additions\JdbcConnectionProxy.cs" />
+    <Compile Include="Additions\JtdsCallableStatement.cs" />
+    <Compile Include="Additions\JtdsConnection.cs" />
+    <Compile Include="Additions\JtdsResultSet.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Additions\AboutAdditions.txt" />
@@ -52,4 +57,7 @@
     <TransformFile Include="Transforms\Metadata.xml" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Novell\Xamarin.Android.Bindings.targets" />
+  <ItemGroup>
+    <EmbeddedJar Include="Jars\jtds-1.3.1.jar" />
+  </ItemGroup>
 </Project>
